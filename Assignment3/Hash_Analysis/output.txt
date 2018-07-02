@@ -1,0 +1,14 @@
+ NAME_MAP:  Percentage of collisions in each combination   
+	        multiply  divide   mad  
+int_casting 0.701738 0.695481 0.695713 
+comp_sum    0.839397 0.839397 0.839397 
+poly_sum    0.522364 0.518192 0.522827 
+cylic_shift 0.530475 0.523754 0.522132 
+
+ Number_MAP:  Percentage of collisions in each combination   
+	        multiply  divide   mad  
+int_casting 0.476797 0.474067 0.474067 
+comp_sum    0.471338 0.476797 0.474977 
+poly_sum    0.479527 0.467698 0.468608 
+cylic_shift 0.465878 0.494086 0.486806 
+

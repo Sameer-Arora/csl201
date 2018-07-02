@@ -1,0 +1,23 @@
+The collision frequency are different for different values of constants used in the calculating the hashcodes and hash functions.
+I have made hashmap for each combination and the best hash map is selected after the insert and erase operations.
+
+                                        ////  HASH CODES      ////
+
+INTEGER CASTING- The last four characters are choosen and typecasted to unsigned integers.
+COMPONENT SUM- The strings each character is converted into interger and then added to sum to get hash code.
+POLYNOMAIL SUM-The strings each character is converted into interger and then polynomial is calculated to get hash code.
+CYCLIC SHIFT- The strings each character is converted into interger and then cyclic sihted by 5 and added to sum to get hash code.
+
+                                       ////  HASH FUNCTIONS      ////
+MULTIPLY- The hash code is multiplied by a number A and its fractional part is multiplied with map's capacity to calculate the hash value.
+MAD- The hash code is multiplied by a number a(capacity/2)and b(capacity/3) is added taken modulo with map's capacity to calculate the hash value.
+DIVIDE- The hash code is taken modulo with map's capacity to calculate the hash value.
+
+                                   ------  NAMES_MAP  -------
+
+In the hash map it was observed that the number of collisions for different combinations were in range of 0.518192 to 0.839397 for polynomial sum and divide and component sum and divide respectively.
+
+
+                                   ------  NUMBER_MAP  -------
+
+In the hash map it was observed that the number of collisions for different combinations were in range of 0.465878 to 0.494086 for cyclic shift and multiply and cyclic shift and divide respectively.The collision frequency are different for different values of constants used in the calculating the hashcodes and hash functions.
